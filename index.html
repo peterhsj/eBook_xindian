@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新店地政事務所-111年度服務品質類考核</title>
+  <link rel="stylesheet" href="css/index.css"></link>
+</head>
+<body>
+  <div id="app">
+    <div class="eBook__slogan-img"></div>
+    <div class="eBook__header">
+      <div class="eBook__logo"></div>
+      <div class="eBook__slogan">
+        111年度服務品質類考核
+      </div>
+    </div>
+    <div class="eBook__container">
+      <div class="eBook__sider">
+        <div class="eBook__siderTitle"></div>
+        <div class="eBook__menu">
+          <div>
+            <ul>
+              <li
+                v-for="(mainMenuItem, idx) in menuList"
+                :key="`main_${idx}`"
+              >
+                <a
+                  :class="{'actived': mainItemId === `main_${idx}`}"
+                  @click="mainMenuHandlar(idx)">
+                  {{mainMenuItem.name}}
+                </a>                
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="eBook__wrapper">
+        <div class="eBook__subHeader">          
+          <ul class="eBook__subMenu">
+            <li
+              v-for="(subMenuItem, idx) in subList"
+              :key="`sub_${idx}`"
+            >
+              <a
+                :class="{'actived': subItemId === `sub_${idx}`}"
+                @click="changeSubItem(idx)"
+              >{{ subMenuItem.name }}</a>
+            </li>
+          </ul>
+        </div>
+        <div class="eBook__content">
+          <iframe name="content" :src="pageUrl" width="100%"></iframe>
+        </div>
+        <div class="eBook__bottom"></div>
+      </div>
+      <div class="eBook__right">
+        <div class="right-top-sider"></div>
+        <div class="right-bottom-sider"></div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+<script src="js/eBookList.js"></script>
+<script src="js/app.js"></script>
+</html>
