@@ -47,7 +47,7 @@ body {
     cursor: pointer;
     text-align: center;
     color: #808080;
-    font-size: 1.025rem;
+    font-size: 1.125rem;
     font-weight: 700;
     background-color: #f1f1f1;
     border-radius: 0.375rem 0.375rem 0 0;
@@ -85,39 +85,45 @@ body {
 
 
 h1 {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 1.5;
 }
 h1.default {
   color: #00479d;
 }
 h2 {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   line-height: 1.5;
 }
 h2.default__title {
   color: #eb6100;
 }
 p {
-  font-size: 1.05rem;
+  font-size: 1.25rem;
   line-height: 1.5;
 }
 
 /* 項目符號 */
 ol {
-  font-size: 1.05rem;
+  font-size: 1.2rem;
   line-height: 1.5;
+}
+ol p {
+  font-size: 1.2rem;
+  margin-bottom: 0.125em;
+  margin-top: 0.125em;
 }
 ol li {
   padding-bottom: 5px;
 }
+
 /* 第一層 */
 .default__ol {
   margin: 0;
   padding-left: 2rem;
   list-style: none;
   text-indent: -2rem;
-  font-size: 1.05rem;
+  font-size: 1.2rem;
 }
   .default__ol ol {
     padding-left: 1.5rem;
@@ -127,14 +133,30 @@ ol li {
     padding-left: 1.5rem;
     text-indent: 0;
   }
+  /* 第二層 */
+  td ol.default__ol-2 {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 1.2rem;
+  }
+  ol.default__ol-2 {
+    font-size: 1.325rem;
+    color:rgb(59, 59, 59);
+  }
+  ol.default__ol-2 .title {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
   /* 第三層 */
   ol.default__ol-3 {
     padding-left: 2rem;
     list-style: none;
     text-indent: -1.5rem;
+    font-weight: normal;
   }
   /* 第四層 */
-  .default__ol ul {
+  .default__ol ul,
+  ol.default__ol-3 ul {
     list-style-type: circle;
     padding-left: 1.5rem;
     text-indent: 0;
@@ -165,26 +187,55 @@ a:hover {
   border-collapse: collapse;
   background-color: #ffffff;
 }
+tr:nth-child(even) {
+  background: rgb(236 243 249);
+}
+tr:nth-child(odd) {
+  background: #FFF;
+}
+tr.default__subItem {
+  background: rgb(249 235 202);
+}
+.default__subItemBrown {
+  background: rgb(224, 203, 178);
+}
+tr.default__subItemGreen,
+.default__subItemGreen {
+  background: rgb(201, 235, 185);
+}
+.default__subItemOrange {
+  background: rgb(241, 213, 171);
+}
+.default__subItemPurple {
+  background: rgb(232, 200, 243);
+}
 .default__table th,
 .default__table td {
   border: 1px solid #999999;
-  font-size: 1.05rem;
   padding: 0.5rem;
 }
 .default__table th {
   background-color: rgb(181, 205, 245);
+  text-align: center;
+  font-size: 1.3rem;
 }
 .default__table td {
   vertical-align: top;
+  font-size: 1.2rem;
 }
 .default__table td.vertical-center {
   vertical-align: middle;
 }
-.default__table td.text-center {
-  text-align: center;
-}
+
+/* 字體顏色 */
 .colorRed {
   color: red;
+}
+.colorGreen {
+  color: rgb(27, 153, 27);
+}
+.colorBlue {
+  color: rgb(35, 111, 209);
 }
 .item-title {
   margin: 0;
@@ -237,4 +288,12 @@ img.default.noborder {
 figcaption {
   padding: 5px;
   font-size: 1rem;
+}
+
+/* 其他 */
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
 }
