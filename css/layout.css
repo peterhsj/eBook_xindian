@@ -151,8 +151,9 @@ ol li {
   ol.default__ol-3 {
     padding-left: 2rem;
     list-style: none;
-    text-indent: -1.5rem;
+    text-indent: -1.8rem;
     font-weight: normal;
+    text-align: justify;
   }
   /* 第四層 */
   .default__ol ul,
@@ -218,6 +219,7 @@ tr.default__subItemGreen,
   background-color: rgb(181, 205, 245);
   text-align: center;
   font-size: 1.3rem;
+  white-space: nowrap;
 }
 .default__table td {
   vertical-align: top;
