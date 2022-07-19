@@ -239,6 +239,9 @@ tr.default__subItemGreen,
 .colorBlue {
   color: rgb(35, 111, 209);
 }
+.textColorGreen {
+  color: #108e27;
+}
 .item-title {
   margin: 0;
   padding-bottom: 5px;
