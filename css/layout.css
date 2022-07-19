@@ -122,7 +122,7 @@ ol li {
   margin: 0;
   padding-left: 2rem;
   list-style: none;
-  text-indent: -2rem;
+  text-indent: -2.3rem;
   font-size: 1.2rem;
 }
   .default__ol ol {
