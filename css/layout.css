@@ -222,8 +222,11 @@ tr.default__subItemGreen,
   white-space: nowrap;
 }
 .default__table td {
-  vertical-align: top;
+  /* vertical-align: top; */
   font-size: 1.2rem;
+}
+.default__table td:first-child {
+  vertical-align: middle;
 }
 .default__table td.vertical-center {
   vertical-align: middle;
