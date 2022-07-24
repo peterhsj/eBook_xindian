@@ -305,3 +305,18 @@ figcaption {
 .text-right {
   text-align: right;
 }
+.text-nowrap {
+  white-space: nowrap;
+}
+.bedge {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -26px;
+  left: -22px;
+  background: url('../images/picture/no1.png') no-repeat;
+}
+.focusArea {
+  position: relative;
+}
