@@ -38,7 +38,7 @@ const menuList = [
     ]
   },
   {
-    name: "服務能量",
+    name: "服務量能",
     subList: [
       {
         name: "一、服務精進機制",
