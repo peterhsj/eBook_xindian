@@ -62,19 +62,19 @@ const menuList = [
     name: "服務評價",
     subList: [
       {
-        name: "一、服務滿意度調查",
+        name: "一、服務特性滿意度調查",
         url: "pages/eBook_4_1.html",
       },
       {
-        name: "二、意見回應與改善程度",
+        name: "二、其他意見調查工具與機制執行情形",
         url: "pages/eBook_4_2.html",
       },
       {
-        name: "三、為民服務滿意度調查",
+        name: "三、民眾意見回應處理執行情形",
         url: "pages/eBook_4_3.html",
       },
       {
-        name: "四、內部人員服務滿意度調查",
+        name: "四、內部同仁服務滿意度調查",
         url: "pages/eBook_4_4.html",
       }
     ],
