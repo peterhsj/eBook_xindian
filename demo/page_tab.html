@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="text/css" rel="stylesheet" href="../css/layout.css">
+  <title>頁面框架 - 頁籤</title>
+</head>
+<body>
+  <!-- Tab 頁籤 -->
+  <div class="nav-tabs">
+    <ul>
+      <li>
+        <a class="tab active" data-content="#tab_1">
+          (一) Tab-1 的標題
+        </a>
+      </li>
+      <li>
+        <a class="tab" data-content="#tab_2">
+          (二) Tab-2 的標題
+        </a>
+      </li>
+      <li>
+        <a class="tab" data-content="#tab_3">
+          (三) Tab-3 的標題
+        </a>
+      </li>
+    </ul>
+  </div>
+  <!-- 內文區 -->
+  <!-- tab1 -->
+  <div id="tab_1" class="tab-content show">
+    <p>Tab-1 的內文</p>
+    <ul>
+      <li>分為頁籤和內文兩個區塊，紅框互相搭配為一組，#tab_1 對應 id="tab_1。"</li>
+      <li>數字請按順序，不能重複，否則會無法換頁"</li>
+    </ul>
+    <img src="images/page_01.jpg">
+  </div>
+  <!-- tab2 -->
+  <div id="tab_2" class="tab-content">
+    <p>Tab-2 的內文</p>
+  </div>
+  <!-- tab3 -->
+  <div id="tab_3" class="tab-content">
+    <p>Tab-3 的內文</p>
+  </div>
+</body>
+<script src="../js/tabs.js"></script>
+<script src="../js/openFile.js"></script>
+</html>

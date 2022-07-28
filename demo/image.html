@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="text/css" rel="stylesheet" href="../css/layout.css">
+  <title>圖片</title>
+</head>
+<body style="padding: 0;">
+  <!-- 內文區 -->
+  <div class="default-content">
+    <p>圖片 - 有框</p>
+    <ul>
+      <li>圖片大小由寬度設定，最大至滿版 ( 寬度設定為: width: 100% ), 另外可以依照需求自行設定 ( width: 100px)</li>
+      <li>高度會依據寬度大小等比例縮放</li>
+      <li>無框樣式基於預設樣式再加上 noborder</li>
+    </ul>
+    <img src="images/page_04.jpg">
+    <br>
+
+    <!-- image -->
+    <div class="image__wrapper" style="width: 500px">
+      <img class="default" src="../images/picture/e-1-2-3/e-1-2-3_03.jpg" />
+    </div>
+
+    <p>圖片 - 無框</p>
+
+    <!-- image -->
+    <div class="image__wrapper" style="width: 500px">
+      <img class="default noborder" src="../images/picture/e-1-2-3/e-1-2-3_03.jpg" />
+    </div>
+
+  </div>
+  <!-- 內文區 -->
+</body>
+<script src="../js/tabs.js"></script>
+<script src="../js/openFile.js"></script>
+</html>
