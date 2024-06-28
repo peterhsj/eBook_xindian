@@ -82,8 +82,6 @@ body {
     padding: 0 30px;
   }
 
-
-
 h1 {
   font-size: 1.8rem;
   line-height: 1.5;
@@ -192,24 +190,55 @@ a:hover {
 tr:nth-child(even) {
   background: rgb(236 243 249);
 }
+.table--01 tr:nth-child(even) {
+  background: #ffeee9;
+}
+.table--02 tr:nth-child(even) {
+  background: #f7ecdd;
+}
+.table--03 tr:nth-child(even) {
+  background: #f3fbe5;
+}
+.table--04 tr:nth-child(even) {
+  background: #e4f5ef;
+}
+.table--05 tr:nth-child(even) {
+  background: #f5f0dd;
+}
+.table--06 tr:nth-child(even) {
+  background: #f8ecfb;
+}
+.table--07 tr:nth-child(even) {
+  background: #f0effd;
+}
+.table--08 tr:nth-child(even) {
+  background: #f7ebdd;
+}
+.table--09 tr:nth-child(even) {
+  background: #e3f7f1;
+}
 tr:nth-child(odd) {
   background: #FFF;
 }
+.default__subItem,
 tr.default__subItem {
-  background: rgb(249 235 202);
+  background: rgb(249 235 202) !important;
 }
-.default__subItemBrown {
-  background: rgb(224, 203, 178);
+.default__subItemBrown,
+tr.default__subItemBrown {
+  background: rgb(224, 203, 178) !important;
 }
 tr.default__subItemGreen,
 .default__subItemGreen {
-  background: rgb(201, 235, 185);
+  background: rgb(201, 235, 185) !important;
 }
-.default__subItemOrange {
-  background: rgb(241, 213, 171);
+.default__subItemOrange,
+tr.default__subItemOrange {
+  background: rgb(241, 213, 171) !important;
 }
-.default__subItemPurple {
-  background: rgb(232, 200, 243);
+.default__subItemPurple,
+tr.default__subItemPurple {
+  background: rgb(232, 200, 243) !important;
 }
 .default__table th,
 .default__table td {
@@ -221,6 +250,33 @@ tr.default__subItemGreen,
   text-align: center;
   font-size: 1.3rem;
   white-space: nowrap;
+}
+.default__table.table--01  th {
+  background-color: #f5c2b5;
+}
+.default__table.table--02 th {
+  background-color: #f9cb90;
+}
+.default__table.table--03 th {
+  background-color: #c7ef85;
+}
+.default__table.table--04 th {
+  background-color: #a7e3cf;
+}
+.default__table.table--05 th {
+  background-color: #f3dd92;
+}
+.default__table.table--06 th {
+  background-color: #e5beef;
+}
+.default__table.table--07 th {
+  background-color: #cbc7fb;
+}
+.default__table.table--08 th {
+  background-color: #d3c2af;
+}
+.default__table.table--09 th {
+  background-color: #a5d3c4;
 }
 .default__table td {
   /* vertical-align: top; */
@@ -242,6 +298,13 @@ tr.default__subItemGreen,
 }
 .colorBlue {
   color: rgb(35, 111, 209);
+}
+.bgYellow {
+  background-color: #f8f54c;
+  padding: 4px;
+}
+.bgWhite {
+  background-color: #ffffff !important;
 }
 .textColorGreen {
   color: #108e27;
@@ -303,6 +366,9 @@ figcaption {
 .text-center {
   text-align: center;
 }
+.text-left {
+  text-align: left !important;
+}
 .text-right {
   text-align: right;
 }
@@ -320,4 +386,15 @@ figcaption {
 }
 .focusArea {
   position: relative;
+}
+.layout__square {
+  list-style-type: square;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.layout__square li::marker {
+  font-size: 25px;
+}
+.text-wrap {
+  white-space: normal !important;
 }

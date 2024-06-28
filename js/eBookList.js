@@ -18,6 +18,10 @@ const menuList = [
         name: "四、服務資訊透明度",
         url: "pages/eBook_1_4.html",
       },
+      {
+        name: "五、服務資訊透明度",
+        url: "pages/eBook_1_5.html",
+      },
     ]
   },
   {
@@ -51,13 +55,13 @@ const menuList = [
       {
         name: "三、內部簡化作業",
         url: "pages/eBook_3_3.html",
-      },      
+      },
       {
         name: "四、歷年服務再精進",
         url: "pages/eBook_3_4.html",
-      }      
+      }
     ],
-  },  
+  },
   {
     name: "服務評價",
     subList: [
@@ -105,20 +109,12 @@ const menuList = [
     name: "地政業務行銷宣導有效程度",
     subList: [
       {
-        name: "一、有效行銷主題、對象與策略",
+        name: "一、業務宣導多元管道",
         url: "pages/eBook_7_1.html",
       },
       {
-        name: "二、多元管道行銷",
+        name: "二、有效行銷主題、對象與策略",
         url: "pages/eBook_7_2.html",
-      },
-      {
-        name: "三、分眾行銷措施",
-        url: "pages/eBook_7_3.html",
-      },
-      {
-        name: "四、行銷宣導效益評估",
-        url: "pages/eBook_7_4.html",
       },
     ]
   },
@@ -126,7 +122,7 @@ const menuList = [
     name: "電話禮貌測試",
     subList: [
       {
-        name: "一、地政局測試",
+        name: "一、電話禮貌測試績效",
         url: "pages/eBook_8_1.html",
       },
       {
