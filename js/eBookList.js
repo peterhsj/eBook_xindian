@@ -18,10 +18,6 @@ const menuList = [
         name: "四、服務資訊透明度",
         url: "pages/eBook_1_4.html",
       },
-      {
-        name: "五、服務資訊透明度",
-        url: "pages/eBook_1_5.html",
-      },
     ]
   },
   {
