@@ -2,15 +2,10 @@ body {
   padding: 50px 0 0;
   margin: 0;
   overflow-y: hidden;
-  font-family: Arial,
-  Helvetica,
-  sans-serif,
-  Arial,
-  "微軟正黑體",
-  "新細明體";
+  font-family: Arial, Helvetica, sans-serif, Arial, "微軟正黑體", "新細明體";
   box-sizing: border-box;
   color: #626262;
-  background: url('../images/watermark.png') right 50px bottom 20px no-repeat;
+  background: url("../images/watermark.png") right 50px bottom 20px no-repeat;
 }
 
 /* Tab 樣式設定*/
@@ -32,55 +27,55 @@ body {
   margin: 0;
   padding: 12px 0 0;
 }
-  .nav-tabs ul li {
-    display: flex;
-    flex-flow: row;
-    align-items: center;
-    padding: 2px 1px;
-  }
-  .nav-tabs ul li a {
-    padding: 4px 10px;
-    display: flex;
-    height: 100%;
-    width: 100%;
-    align-items: center;
-    cursor: pointer;
-    text-align: center;
-    color: #808080;
-    font-size: 1.125rem;
-    font-weight: 700;
-    background-color: #f1f1f1;
-    border-radius: 0.375rem 0.375rem 0 0;
-    border: 1px solid #c8c8c8;
-    border-bottom-width: 0;
-  }
-  .nav-tabs ul li a:hover {
-    background-color: #e3edfd;
-    color: #626262;
-  }
-  .nav-tabs ul li a.active {
-    background-color: #e3edfd;
-    border: 1px solid #979797;
-    border-bottom-width: 0;
-    color: #00479d;
-  }
-  .nav-tabs ul li a.active:hover {
-    background-color: #e3edfd;
-  }
-  .tab-content {
-    display: none;
-    overflow-y: auto;
-    height: calc(100vh - 52px);
-    padding: 0 30px;
-  }
-  .tab-content.show {
-    display: block;
-  }
-  .default-content {
-    overflow-y: auto;
-    height: 100vh;
-    padding: 0 30px;
-  }
+.nav-tabs ul li {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  padding: 2px 1px;
+}
+.nav-tabs ul li a {
+  padding: 4px 10px;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
+  color: #808080;
+  font-size: 1.125rem;
+  font-weight: 700;
+  background-color: #f1f1f1;
+  border-radius: 0.375rem 0.375rem 0 0;
+  border: 1px solid #c8c8c8;
+  border-bottom-width: 0;
+}
+.nav-tabs ul li a:hover {
+  background-color: #e3edfd;
+  color: #626262;
+}
+.nav-tabs ul li a.active {
+  background-color: #e3edfd;
+  border: 1px solid #979797;
+  border-bottom-width: 0;
+  color: #00479d;
+}
+.nav-tabs ul li a.active:hover {
+  background-color: #e3edfd;
+}
+.tab-content {
+  display: none;
+  overflow-y: auto;
+  height: calc(100vh - 52px);
+  padding: 0 30px;
+}
+.tab-content.show {
+  display: block;
+}
+.default-content {
+  overflow-y: auto;
+  height: 100vh;
+  padding: 0 30px;
+}
 
 h1 {
   font-size: 1.8rem;
@@ -123,47 +118,47 @@ ol li {
   text-indent: -2.3rem;
   font-size: 1.2rem;
 }
-  .default__ol ol {
-    padding-left: 1.5rem;
-    text-indent: 0;
-  }
-  .default__ol ol {
-    padding-left: 1.5rem;
-    text-indent: 0;
-  }
-  /* 第二層 */
-  td ol.default__ol-2 {
-    margin: 0;
-    padding-left: 20px;
-    font-size: 1.2rem;
-  }
-  ol.default__ol-2 {
-    font-size: 1.325rem;
-    color:rgb(59, 59, 59);
-  }
-  ol.default__ol-2 .title {
-    font-weight: 700;
-    letter-spacing: 0.5px;
-  }
-  /* 第三層 */
-  ol.default__ol-3 {
-    padding-left: 2rem;
-    list-style: none;
-    text-indent: -1.8rem;
-    font-weight: normal;
-    text-align: justify;
-  }
-  /* 第四層 */
-  .default__ol ul,
-  ol.default__ol-3 ul {
-    list-style-type: circle;
-    padding-left: 1.5rem;
-    text-indent: 0;
-  }
-  /* 第五層 */
-  .default__ol ul ul,
-  ol.default__ol-3 ul ul {
-  list-style-type: '- ';
+.default__ol ol {
+  padding-left: 1.5rem;
+  text-indent: 0;
+}
+.default__ol ol {
+  padding-left: 1.5rem;
+  text-indent: 0;
+}
+/* 第二層 */
+td ol.default__ol-2 {
+  margin: 0;
+  padding-left: 20px;
+  font-size: 1.2rem;
+}
+ol.default__ol-2 {
+  font-size: 1.325rem;
+  color: rgb(59, 59, 59);
+}
+ol.default__ol-2 .title {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+/* 第三層 */
+ol.default__ol-3 {
+  padding-left: 2rem;
+  list-style: none;
+  text-indent: -1.8rem;
+  font-weight: normal;
+  text-align: justify;
+}
+/* 第四層 */
+.default__ol ul,
+ol.default__ol-3 ul {
+  list-style-type: circle;
+  padding-left: 1.5rem;
+  text-indent: 0;
+}
+/* 第五層 */
+.default__ol ul ul,
+ol.default__ol-3 ul ul {
+  list-style-type: "- ";
   padding-left: 1.5rem;
   text-indent: 0;
 }
@@ -218,7 +213,7 @@ tr:nth-child(even) {
   background: #e3f7f1;
 }
 tr:nth-child(odd) {
-  background: #FFF;
+  background: #fff;
 }
 .default__subItem,
 tr.default__subItem {
@@ -251,7 +246,7 @@ tr.default__subItemPurple {
   font-size: 1.3rem;
   white-space: nowrap;
 }
-.default__table.table--01  th {
+.default__table.table--01 th {
   background-color: #f5c2b5;
 }
 .default__table.table--02 th {
@@ -318,7 +313,7 @@ tr.default__subItemPurple {
 }
 .item-title::before {
   color: #333333;
-  content: '◆';
+  content: "◆";
   font-weight: bolder;
   padding-right: 5px;
 }
@@ -341,7 +336,7 @@ img.default {
 }
 img.default.noborder {
   border-width: 0;
-  box-shadow:none;
+  box-shadow: none;
 }
 .photo-gallery {
   display: flex;
@@ -382,7 +377,7 @@ figcaption {
   position: absolute;
   top: -26px;
   left: -22px;
-  background: url('../images/picture/no1.png') no-repeat;
+  background: url("../images/picture/no1.png") no-repeat;
 }
 .focusArea {
   position: relative;
@@ -397,4 +392,12 @@ figcaption {
 }
 .text-wrap {
   white-space: normal !important;
+}
+.diagonal-line {
+  background-image: linear-gradient(
+    to top right,
+    white 50%,
+    black,
+    white 50.5%
+  );
 }
